@@ -31,7 +31,7 @@ from aiogram.types import (
 )
 
 # ==================== НАСТРОЙКИ ====================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8989681189:AAH5hmySlZ7xKxXi7z0EOwuIPMPsKIXn1-Y")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8989681189:AAGn9PJ3BK_wpT91weuOKC5bRa-VFnCZ1_8")
 MANAGER_CHAT_ID = int(os.getenv("MANAGER_CHAT_ID", "-5251415817"))  # 0 — не слать менеджеру; ID узнаём через /myid
 
 TIMEZONE = os.getenv("TIMEZONE", "Europe/Moscow")  # часовой пояс ресторана
